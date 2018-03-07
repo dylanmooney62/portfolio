@@ -65,6 +65,12 @@
   #navigation li a:visited {
     margin: 0 1.25em;
   }
+
+  #navigation li a:link, #navigation li a:visited {
+    width: 33%;
+  }
+
+
   #logo {
     display: none;
   }
@@ -96,6 +102,9 @@
   #navigation li a:link, #navigation li a:visited {
     font-size: 0.6rem;
   }
+
+  
+
 
   .long-copy {
     text-align: left;
