@@ -1,141 +1,126 @@
 /* From big tablets to 1200px (widths smaller than 1140px row) */
+
 @media only screen and (max-width: 1200px) {
-
-	.modal-container{
-		width: 70%;
-	}
-
-	#project-list {
-		grid-template-columns: 1fr 1fr;
-		width: 80%;
-	}
-
-
-}
-/* small table to big tablet: from 768px to 1023px */
-@media only screen and (max-width: 1072px) {
-
-	section {
-		padding: 2rem 0;
+  .modal-container {
+    width: 70%;
   }
-  
+  #project-list {
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+  }
+}
+
+/* small table to big tablet: from 768px to 1023px */
+
+@media only screen and (max-width: 1072px) {
+  section {
+    padding: 2rem 0;
+  }
   nav {
     width: 95%;
   }
-
-
-	#hero-text-box {
-		width: 90%;
+  #hero-text-box {
+    width: 90%;
   }
-  
-
-	h2 {
-		margin-bottom: 0.5em;
-		padding: 0;
-	}
-
-	.long-copy {
-		width: 90%;
-		margin-left: 5%;
-		text-align: center;
-	}
-
-
-	#contact-form {	
-		width: 80%;
-	}
-
-
-
+  h2 {
+    margin-bottom: 0.5em;
+    padding: 0;
+  }
+  .long-copy {
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+  }
+  #contact-form {
+    width: 80%;
+  }
 }
-/* Smalls phones to small tablets: from 481 to 767px */
-@media only screen and (max-width: 767px) {
-	body {
-		font-size: 18px
-	}
 
-	nav {
+/* Smalls phones to small tablets: from 481 to 767px */
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 18px
+  }
+  nav {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
- 
-  #navigation li a:link, #navigation li a:visited {
-    margin: 0 1.25em; 
+  .modal-description {
+    width: 100%;
   }
-
-
+  .modal-container {
+    width: 90%;
+  }
+  .img-wrapper {
+    width: 70%;
+    margin-right: 15%;
+  }
+  .img-wrapper img {
+    width: 100%;
+  }
+  #navigation li a:link,
+  #navigation li a:visited {
+    margin: 0 1.25em;
+  }
   #logo {
     display: none;
   }
-
-	h1 {
-		font-size: 4rem;
+  h1 {
+    font-size: 4rem;
   }
-  
   h3 {
     font-size: 1.2rem;
   }
-
-
-
-	#project-list {
-		grid-template-columns: 1fr;
-		height: 100%;
-	}
-	.modal-container{
-    width: 90%;
+  #project-list {
+    grid-template-columns: 1fr;
+    height: 100%;
   }
-
-  .modal-description, .btn-wrapper {
-    padding: 1em;
+  button {
+    width: 80%;
   }
-  
-  .img-wrapper img {
-    display: none;
-  }
-	button {
-		width: 80%;
-	}
-	
 }
+
 /* Small phones: from 0 to 480px */
+
 @media only screen and (max-width: 568px) {
-	body {
+  body {
     font-size: 16px;
   }
-  
   nav {
     padding: 0;
   }
-
-  #navigation li a:link, #navigation li a:visited {
+  #navigation li a:link,
+  #navigation li a:visited {
     font-size: 0.8rem;
   }
-
-
-	h1 {
-		font-size: 2.5rem;
-	}
-
-
-	#hero-text-box p {
-		font-size: 1rem;
-	}
-
-	#hero-text-box a {
-		font-size: 0.8rem;
-	}
-
-	.modal-description {
-		width: 100%;
-	}	
-	.img-wrapper {
-		width: 50%;
-		margin-right: 25%;
-		padding: 0;
-	}
-	
+  .img-wrapper img {
+    display: none;
+  }
+  .modal-container {
+    width: 90%;
+  }
+  .modal-description,
+  .btn-wrapper {
+    padding: 1em;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  #hero-text-box p {
+    font-size: 1rem;
+  }
+  #hero-text-box a {
+    font-size: 0.8rem;
+  }
+  .modal-description {
+    width: 100%;
+  }
+  .img-wrapper {
+    width: 50%;
+    margin-right: 25%;
+    padding: 0;
+  }
 }
