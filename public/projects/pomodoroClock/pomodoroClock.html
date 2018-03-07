@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pomodoro Clock</title>
+  <link rel="stylesheet" href="resources/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,400,700" rel="stylesheet">
+</head>
+<body>
+
+  <audio id="alarm" src="resources/audio/alarm.mp3" type="audio/mpeg"></audio>
+
+  <div id="clock">
+    <div id="display">
+      <span id="minutes">25</span>
+      <span id="colon">:</span>
+      <span id="seconds">0</span>
+    </div>
+    <div class="container">		
+			<div id="main-ui" class="clearfix">
+				<div>
+					<i id="stop" class="ion-ios-pause-outline"></i>
+				</div>
+				<div>
+					<i id="start" class="ion-ios-play-outline"></i>
+				</div>
+				<div>
+					<i id="reset" class="ion-ios-reload"></i>
+				</div>
+      </div> 
+    	<div id="increment-ui">
+        <div>
+          <i id="up"class="ion-ios-arrow-up"></i>
+        </div>
+        <div>
+          <i id="down" class="ion-ios-arrow-down"></i>
+        </div>     
+      </div>
+      <div id="break-ui">
+        <div>
+          <p id="work" class="active">Work</p>
+        </div>
+        <div>
+          <p id="break" class="unactive">Break</p>
+        </div>
+      </div>
+    	<div id="progress-circle"></div>
+  	</div>
+	</div>
+
+
+
+
+  <script src="resources/js/lib/progressbar.min.js"></script>
+  <script src="resources/js/main.js"></script>
+</body>
+</html>

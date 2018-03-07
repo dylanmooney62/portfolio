@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Hi, I'm Dylan. I'm a 20 year old web developer based in Glasgow, Scotland.">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="resources/css/style.css">
+	<link rel="stylesheet" href="resources/css/queries.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300,300i,400,700" rel="stylesheet">		
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<title>Dylan Mooney - Front End Web Developer</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+	<link rel="manifest" href="resources/favicons/site.webmanifest">
+	<link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="resources/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+
+<header>
+	<nav class="sticky">
+			<a href="#" id="logo"><span class="red">D</span>M</a>
+			<ul id="navigation">
+				<li><a href="#section-about" id="about-btn">About</a></li>
+				<li><a href="#section-work" class="work-btn">Work</a></li>
+				<li><a href="#section-contact" id="contact-btn">Contact</a></li>
+			</ul>
+	</nav>		 
+	<div id="hero-text-box">
+		<h1>Hi, I'm <span class="red">Dylan</span>.</h1>
+		<p>Front End Web Developer.</p>
+		<a href="#section-work" class="btn btn-ghost work-btn">View portfolio</a>
+  </div>
+</header>
+
+
+<section id="section-about">
+	<div class="row">
+		<h2>About Me</h2>
+		<p class="long-copy">Hi, I'm Dylan. I'm a 20 year old web developer based in Glasgow, Scotland. With a passion for technology, I design and build full-stack web applications.
+			I thoroughly enjoy the development process and building websites with <strong>clean/maintainable code</strong>, <strong>cross-browser support</strong> and <strong>fully responsive designs.</strong>
+		</p>
+	</div>
+</section>
+
+<section id="section-work">
+	<div class="row">
+		<h2>My Work</h2>
+	</div>
+
+	<ul id="project-list" class="row">
+		<li>
+			<a href="#project-1" data-value="1" class="modal-btn" >
+				<div class="project" id="project1">
+					<h3>JS Calculator.</h3>
+				</div>
+			</a>				
+		</li>
+		<li>
+			<a href="#project-2" data-value="2" class="modal-btn" >
+				<div class="project" id="project2">
+					<h3>Pomodoro Clock.</h3>
+				</div>					
+			</a>
+		</li>
+		<li>
+			<a href="#project-3" data-value="3" class="modal-btn" >
+				<div class="project" id="project3">
+					<h3>Quote Generator.</h3>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="#project-4" data-value="4" class="modal-btn" >
+				<div class="project">
+					<h3>project 4</h3>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="#project-5" data-value="5" class="modal-btn" >
+				<div class="project">
+					<h3>project 5</h3>
+				</div>
+			</a>
+		</li>
+		<li>
+			<a href="#project-6" data-value="6" class="modal-btn">
+				<div class="project">
+					<h3>project 6</h3>
+				</div>
+			</a>
+		</li>
+	</ul>
+
+	<div class="modal" id="modal-1">
+		<div class="modal-container">
+			<h3>JS Calculator.</h3>
+			<span class="close-btn" data-value="1">&times;</span>
+			<hr>
+			<div class="clearfix">
+				<div class="modal-description">
+					<p>Simple and functional calculator built with vanilla Javascript.</p>
+					<ul class="modal-list">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Javascript</li>
+					</ul>
+				</div>
+				<div class="img-wrapper">
+					<img src="resources/images/calculator.png"alt="placeholder image">			
+				</div>
+			</div>
+			<div class="btn-wrapper">
+				<a href="projects/javascriptCalculator/calculator.html" target="_blank" class="btn btn-full">Launch</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id="modal-2">
+		<div class="modal-container">
+			<h3>Pomodoro Clock.</h3>
+			<span class="close-btn" data-value="2">&times;</span>
+			<hr>
+			<div class="clearfix">
+				<div class="modal-description">
+					<p>The pomodoro clock is a time manager which breaks down work into intervals. The intervals can be easily changed
+						and the clock will automatically sound an alarm and switch sessions when the current session is over.
+				 </p>
+					<ul class="modal-list">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Javascript</li>
+						<li>progressBar.js</li>
+					</ul>
+				</div>
+				<div class="img-wrapper">
+					<img src="resources/images/pomodoroClock.png" alt="placeholder image">			
+				</div>
+			</div>
+			<div class="btn-wrapper">
+				<a href="projects/pomodoroClock/pomodoroClock.html" target="_blank" class="btn btn-full">Launch</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id="modal-3">
+		<div class="modal-container">
+			<h3>Quote Generator.</h3>
+			<span class="close-btn" data-value="3">&times;</span>
+			<hr>
+			<div class="clearfix">
+				<div class="modal-description">
+					<p>The Quote generator makes a call to the Random Famous Quotes API from mashape and displays the content on the page, The user can also choose to 
+            tweet the quote by clicking the twitter icon.
+          </p>
+					<ul class="modal-list">
+						<li>Html</li>
+						<li>CSS</li>
+						<li>jQuery</li>
+					</ul>
+				</div>
+				<div class="img-wrapper">
+					<img src="resources/images/quote.png" alt="placeholder image">			
+				</div>
+			</div>
+			<div class="btn-wrapper">
+				<a href="projects/quoteGenerator/quoteGenerator.html" class="btn btn-full">Launch</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id="modal-4">
+		<div class="modal-container">
+			<h3>Project 4</h3>
+			<span class="close-btn" data-value="4">&times;</span>
+			<hr>
+			<div class="clearfix">
+				<div class="modal-description">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officiis quae molestias ullam blanditiis laboriosam, doloribus rerum mollitia saepe vitae.</p>
+					<ul class="modal-list">
+						<li>Html</li>
+						<li>CSS</li>
+						<li>jQuery</li>
+					</ul>
+				</div>
+				<div class="img-wrapper">
+					<img src="resources/images/placeholder.gif" alt="placeholder image">			
+				</div>
+			</div>
+			<div class="btn-wrapper">
+				<a href="" class="btn btn-full">Launch</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id="modal-5">
+		<div class="modal-container">
+			<h3>Project 5.</h3>
+			<span class="close-btn" data-value="5">&times;</span>
+			<hr>
+			<div class="clearfix">
+				<div class="modal-description">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officiis quae molestias ullam blanditiis laboriosam, doloribus rerum mollitia saepe vitae.</p>
+					<ul class="modal-list">
+						<li>Html</li>
+						<li>CSS</li>
+						<li>jQuery</li>
+					</ul>
+				</div>
+				<div class="img-wrapper">
+					<img src="resources/images/placeholder.gif" alt="placeholder image">			
+				</div>
+			</div>
+			<div class="btn-wrapper">
+				<a href="" class="btn btn-full">Launch</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id="modal-6">
+		<div class="modal-container">
+			<h3>Project 6.</h3>
+			<span class="close-btn" data-value="6">&times;</span>
+			<hr>
+			<div class="clearfix">
+				<div class="modal-description">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officiis quae molestias ullam blanditiis laboriosam, doloribus rerum mollitia saepe vitae.</p>
+					<ul class="modal-list">
+						<li>Html</li>
+						<li>CSS</li>
+						<li>jQuery</li>
+					</ul>
+				</div>
+				<div class="img-wrapper">
+					<img src="resources/images/placeholder.gif" alt="placeholder image">			
+				</div>
+			</div>
+			<div class="btn-wrapper">
+				<a href="" class="btn btn-full">Launch</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section id="section-contact">
+	<h2>Get In Touch</h2>
+
+	<div class="row">
+		<form action="POST" id="contact-form">
+			<input type="text" placeholder="Name*" required>
+			<input type="email" placeholder="Email*" required>
+			<input type="text" placeholder="Phone Number">
+			<textarea placeholder="Message*"></textarea>
+			<div class="btn-wrapper">
+				<button type="submit" class="btn btn-full">Send <i class="far fa-paper-plane"></i></button>
+			</div>
+		</form>
+	</div>
+</section>
+
+
+<footer>
+	<div class="row">
+		<ul id="social-links">
+			<li>
+				<a href="">
+					<i class="fab fa-github"></i>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<i class="fab fa-linkedin"></i>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<i class="fab fa-codepen"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="row">
+		<p>&copy; Dylan Mooney 2018</p>
+	</div>
+</footer>
+
+<script src="resources/js/lib/jquery-3.3.1.min.js"></script>
+<script src="resources/js/main.js"></script>
+</body>
+</html>

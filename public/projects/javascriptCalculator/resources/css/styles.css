@@ -1,0 +1,106 @@
+/* SETUP */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html, body {
+ margin: 0;
+  height: 100%;
+  overflow: hidden
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.clearfix {
+  overflow: auto;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: f4f4f4;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+/* --------------CALCULATOR --------------*/
+#calculator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: rgba(48, 48, 48, 0.7);
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.59);
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.59);
+}
+/* --------DISPLAY---------- */
+#display {
+  border-bottom: 1px solid rgba(36, 36, 36, 0.7);
+  height: 120px;
+  width: 100%;
+  font-size: 40px;
+}
+#display .row{
+  height: 50%;
+  width: 100%;
+  padding: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+#sum-display, #answer-display {
+  color: #fff;
+  text-align: right;
+  font-weight: 100;
+  height: 100%;
+}
+/*-------- BUTTONS -----------*/
+#calculator button{
+  width: 25%;
+  display: block;
+  float: left;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  padding: 30px;
+  border: 1px solid rgba(36, 36, 36, 0.7);
+  -webkit-transition: 0.2s all ease-in;
+  -o-transition: 0.2s all ease-in;
+  transition: 0.2s all ease-in;
+  cursor: pointer;
+  font-weight: 100;
+}
+#calculator .long-btn {
+  width: 50%;
+}
+#calculator button:focus{
+  outline: none;
+}
+#calculator button:hover{
+  outline: none;
+  background-color: rgba(31, 31, 31, 0.7);
+}
+#calculator .operator, #calculator #minus, #calculator #equals {
+  background-color: #2ecc71;
+}
+#calculator .operator:hover, #calculator #minus:hover, #calculator #equals:hover {
+  background-color: #25a25a;
+}
+#calculator #clear-entry {
+  background-color: #e74c3c;
+  width: 75%;
+}
+#calculator #clear-entry:hover {
+  background-color: #d62c1a;
+}
+/*--------- MEDIA QUERIES -------------*/
+@media only screen and (max-width: 768px) {
+  #calculator {
+      width: 99vw;
+ }
+}

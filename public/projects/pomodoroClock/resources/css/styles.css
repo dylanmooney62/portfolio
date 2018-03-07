@@ -1,0 +1,208 @@
+/* SETUP */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body,html {
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  font-weight: 100;
+  background: #ecf0f1;
+  font-family: 'Lato', sans-serif;
+}
+/* -------- CLOCK-------- */
+#clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  color: #2c3e50;
+  height: 600px;
+  width: 604px;
+  border: 1px solid #2c3e50;
+}
+/* -------DISPLAY ------- */
+#clock #display {
+  font-weight: 100;
+  font-size: 125px;
+  margin: 200px 0 80px 0;
+  text-align: center 
+}
+#colon {
+  position: relative;
+  bottom: 10px;
+}
+/* -------- UI -----------*/
+.container {
+  padding: 10px 80px;
+}
+#main-ui {
+  z-index: 99;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+#main-ui div {
+  float: left;
+  width: 33%;
+}
+
+/* AUDIO UI */
+
+#audio-ui {
+  float: right;
+  margin-right: 30px;
+  margin-top: 5px;
+  
+}
+
+#sound {
+  font-size: 1px;
+}
+
+#mute {
+  display: none;
+}
+
+
+
+
+/* TIME INCREMENT UI */
+
+#increment-ui {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+#increment-ui div {
+  width: 50%;
+  float: left;
+}
+
+
+/* WORK/BREAK UI */
+
+#break-ui {
+  width: 600px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+ 
+}
+#break-ui div{
+  float: left;
+  width: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#break-ui div p{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 30px;
+  transition: 0.2s all ease-in-out;
+}
+#break {
+  margin-left: 50%;
+}
+#work {
+  margin-right: 50%;
+}
+#break-ui div p:hover{
+  color: #ff4732;
+}
+.active {
+  color: #ff4732;
+}
+
+
+
+/* ICONS */
+i {
+  font-size: 40px;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+i:hover {
+  color: #ff4732;
+}
+#main-ui div .ion-ios-play-outline {
+  margin-left: 5px;
+}
+#increment-ui div .ion-ios-arrow-up {
+  margin-left: 50%;
+}
+#increment-ui div .ion-ios-arrow-down {
+  margin-right: 50%;
+}
+/* PROGRESS CIRCLE */
+#progress-circle {
+  width: 600px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  padding: 20px;
+
+
+}
+
+
+
+@media (max-width: 600px) {
+
+  #clock {
+    border: none;
+  }
+ 
+  #clock, #progress-circle {
+    width: 100%;
+  }
+
+  #clock #display {
+    margin-bottom: 20px;
+  }
+
+
+
+  i {
+    font-size: 30px;
+  }
+
+  #break-ui {
+    width: 100%;
+    bottom: 1%;
+  }
+
+  #work, #break {
+   margin: 0;
+  }
+
+}
+
+@media (max-width: 450px) {
+  #break-ui {
+    bottom: 10%;
+  }
+
+
+  i {
+    font-size: 30px;
+  }
+}
