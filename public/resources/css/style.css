@@ -108,7 +108,7 @@ h3 {
 /* -------------------- BUTTONS ----------------------- */
 
 .btn:link,
-btn:visited,
+.btn:visited,
 button[type=submit] {
   font-size: 1rem;
   padding: 0.750em 1.750em;
