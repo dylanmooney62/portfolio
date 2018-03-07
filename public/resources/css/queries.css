@@ -105,7 +105,11 @@
 @media only screen and (max-width: 568px) {
 	body {
     font-size: 16px;
-	}
+  }
+  
+  nav {
+    padding: 0;
+  }
 
   #navigation li a:link, #navigation li a:visited {
     font-size: 0.8rem;

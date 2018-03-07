@@ -83,7 +83,7 @@ h3 {
 	letter-spacing: 0.033em;
 }
 /* -------------------- BUTTONS ----------------------- */
-.btn {
+.btn:link, btn:visited {
 	font-size: 1rem;
 	padding: 0.750em 1.750em;
 	color: #fff;
@@ -96,18 +96,18 @@ h3 {
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
-.btn-full {
+.btn-full:link, .btn-full:visited {
 	background: #ff3838;
 	border: 0.050em solid #ff3838;
 }
-.btn-ghost {
+.btn-ghost:link, .btn-ghost:visited {
 	border: 0.050em solid #fff;
 }
-.btn-full:hover {
+.btn-full:hover, .btn-full:active {
 	background: #ff1616;
 	border: 0.050em solid #ff1616;
 }
-.btn-ghost:hover {
+.btn-ghost:hover, .btn-ghost:active {
 	background: #ff1616;
 	border: 0.050em solid #ff1616;
 }
