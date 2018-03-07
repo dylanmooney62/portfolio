@@ -73,16 +73,29 @@
 
 	h1 {
 		font-size: 4rem;
-	}
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+
+
 
 	#project-list {
 		grid-template-columns: 1fr;
 		height: 100%;
 	}
 	.modal-container{
-		width: 90%;
-	}
+    width: 90%;
+  }
 
+  .modal-description, .btn-wrapper {
+    padding: 1em;
+  }
+  
+  .img-wrapper img {
+    display: none;
+  }
 	button {
 		width: 80%;
 	}
@@ -95,7 +108,7 @@
 	}
 
   #navigation li a:link, #navigation li a:visited {
-    font-size: 0.9em;
+    font-size: 0.8rem;
   }
 
 
