@@ -81,6 +81,7 @@
   button {
     width: 80%;
   }
+
 }
 
 /* Small phones: from 0 to 480px */
@@ -92,10 +93,10 @@
   nav {
     padding: 0;
   }
-  #navigation li a:link,
-  #navigation li a:visited {
-    font-size: 0.8rem;
+  #navigation li a:link, #navigation li a:visited {
+    font-size: 0.6rem;
   }
+  
   .img-wrapper img {
     display: none;
   }
