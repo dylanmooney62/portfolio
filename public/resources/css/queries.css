@@ -96,6 +96,11 @@
   #navigation li a:link, #navigation li a:visited {
     font-size: 0.6rem;
   }
+
+  .long-copy {
+    text-align: left;
+    font-size: 0.9rem;
+  }
   
   .img-wrapper img {
     display: none;
