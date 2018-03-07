@@ -17,10 +17,14 @@
     padding: 2rem 0;
   }
   nav {
-    width: 95%;
+    
+    width: 100%;
+    padding: 5%;
+    
+   
   }
   #hero-text-box {
-    width: 90%;
+    width: 100%;
   }
   h2 {
     margin-bottom: 0.5em;
@@ -42,11 +46,17 @@
   body {
     font-size: 18px
   }
+
+  #hero-text-box {
+    width: 100%;
+  }
+  
   nav {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
   }
   .modal-description {
     width: 100%;
