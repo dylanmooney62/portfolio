@@ -10,8 +10,8 @@ body {
   width: 100%;
   height: 100%;
   background-color: #2ecc71;
-	color: #fff;
-	transition: background-color 0.5s ease-in-out;
+  color: #fff;
+  transition: background-color 0.5s ease-in-out;
 }
 
 .container {
@@ -20,56 +20,45 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
-	max-width: 1200px;
-	
+  max-width: 1200px;
 }
 
 .quote-mark {
-	display: inline-block;
-	
-
-	font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .mark-right {
-	position: relative;
-	left: 98%;
+  position: relative;
+  left: 98%;
 }
-
-
-
 
 blockquote {
   font-size: 5vw;
-  font-weight: 100;
-	font-style: italic;
+  font-style: italic;
   text-align: left;
   transition: 0.3s all ease-in-out;
-
-	
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
 blockquote p {
- text-align: center;
+  text-align: center;
 }
 
 .author {
   margin-top: 1em;
-  font-weight:300;
-	margin-left: 1.5em;
+  font-weight: 300;
+  margin-left: 1.5em;
   font-size: 2.5vw;
-	margin-bottom: 2em;
-
-	font-weight: 100;
+  margin-bottom: 2em;
 }
 
 .button-wrapper {
-	text-align: center;
-	position: fixed;
-	bottom: 1%;
-	left: 50%;
-	transform: translateX(-50%)
-
+  text-align: center;
+  position: fixed;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%)
 }
 
 .btn {
@@ -80,30 +69,38 @@ blockquote p {
   border: none;
   font-size: 5vw;
   cursor: pointer;
+  transition: 0.3s all;
 }
 
-.btn:hover {
-  color: #f4f4f4;
+.fa-twitter {
+  transition: 0.3s all;
 }
 
-
+.fa-twitter:hover {
+  color: #1dcaff;
+}
 
 .btn:focus {
   outline: none;
 }
 
+.btn:hover {
+  color: #c3c3c3;
+}
 
 @media (max-width: 700px) {
   .btn {
     font-size: 15vw;
-    
   }
-
   blockquote {
     font-size: 10vw;
+    font-weight: 300;
   }
-
+  .button-wrapper {
+    width: 80%;
+  }
   .author {
     font-size: 4vw;
+    font-weight: 300;
   }
 }

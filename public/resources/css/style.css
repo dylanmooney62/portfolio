@@ -31,8 +31,6 @@ body {
   display: table;
 }
 
-
-
 /* -------------------------------------- */
 
 /* RESUABLE COMPONENTS ----------*/
@@ -85,7 +83,8 @@ p {
 /* ----- HEADINGS ------------------------------------*/
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
+  font-size: 7vw;
   letter-spacing: 0.010em;
   word-spacing: 0.040em;
   text-align: center;
@@ -187,10 +186,13 @@ header {
   text-align: center;
   color: #fff;
   width: 90%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #hero-text-box p {
-  font-size: 1.5rem;
+  font-size: 2vw;
   margin-bottom: 1em;
   letter-spacing: 0.033em;
   word-spacing: 0.133em;
@@ -204,6 +206,7 @@ nav {
   text-transform: uppercase;
   position: relative;
   padding-top: 2.5em;
+  margin-bottom: 30vh;
   width: 80%;
   margin: 0 auto;
 }
@@ -219,10 +222,10 @@ nav {
 }
 
 #navigation {
-  font-size: 1rem;
+  font-size: 0.8rem;
   float: right;
   list-style: none;
-  padding-top: 1.5em;
+  padding-top: 2em;
 }
 
 #navigation li {
@@ -274,7 +277,6 @@ nav {
   border-radius: 0.50em;
   width: 100%;
   margin: 1% 0;
-
 }
 
 .project {
@@ -290,7 +292,6 @@ nav {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   height: 300px;
- 
 }
 
 #project1 {
@@ -304,8 +305,6 @@ nav {
 #project3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/project3-background.png");
 }
-
-
 
 .project:hover {
   -webkit-transform: scale(1.1);
@@ -387,15 +386,12 @@ nav {
   width: 50%;
   float: right;
   padding: 1.5em;
-
 }
-
 
 .img-wrapper .calculator {
   max-height: 300px;
   max-width: 200px;
   margin: 0 auto;
-
 }
 
 .modal-list {
