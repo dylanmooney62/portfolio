@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,10 @@
   <title>Pomodoro Clock</title>
   <link rel="stylesheet" href="resources/css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,400,700" rel="stylesheet">
 </head>
+
 <body>
 
   <audio id="alarm" src="resources/audio/alarm.mp3" type="audio/mpeg"></audio>
@@ -21,25 +22,25 @@
       <span id="colon">:</span>
       <span id="seconds">0</span>
     </div>
-    <div class="container">		
-			<div id="main-ui" class="clearfix">
-				<div>
-					<i id="stop" class="material-icons">pause</i>
-				</div>
-				<div>
+    <div class="container">
+      <div id="main-ui" class="clearfix">
+        <div>
+          <i id="stop" class="material-icons">pause</i>
+        </div>
+        <div>
           <i id="start" class="material-icons">play_arrow</i>
-				</div>
-				<div>
-					<i id="reset" class="material-icons">autorenew</i>
-				</div>
-      </div> 
-    	<div id="increment-ui">
+        </div>
+        <div>
+          <i id="reset" class="material-icons">autorenew</i>
+        </div>
+      </div>
+      <div id="increment-ui">
         <div>
           <i id="up" class="material-icons">keyboard_arrow_up</i>
         </div>
         <div>
           <i id="down" class="material-icons">keyboard_arrow_down</i>
-        </div>     
+        </div>
       </div>
       <div id="break-ui">
         <div>
@@ -49,9 +50,9 @@
           <p id="break" class="unactive">Break</p>
         </div>
       </div>
-    	<div id="progress-circle"></div>
-  	</div>
-	</div>
+      <div id="progress-circle"></div>
+    </div>
+  </div>
 
 
 
@@ -59,4 +60,5 @@
   <script src="resources/js/lib/progressbar.min.js"></script>
   <script src="resources/js/main.js"></script>
 </body>
+
 </html>
