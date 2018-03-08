@@ -31,6 +31,8 @@ body {
   display: table;
 }
 
+
+
 /* -------------------------------------- */
 
 /* RESUABLE COMPONENTS ----------*/
@@ -385,10 +387,15 @@ nav {
   width: 50%;
   float: right;
   padding: 1.5em;
+
 }
 
-.img-wrapper img {
-  /* border-radius: 0.5em; */
+
+.img-wrapper .calculator {
+  max-height: 300px;
+  max-width: 200px;
+  margin: 0 auto;
+
 }
 
 .modal-list {

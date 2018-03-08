@@ -101,6 +101,14 @@ body {
 /*--------- MEDIA QUERIES -------------*/
 @media only screen and (max-width: 768px) {
   #calculator {
-      width: 99vw;
+    width: 90vw;
+    
  }
+ 
+ #calculator button{
+  padding: 20px;
+  
+}
+
+
 }
