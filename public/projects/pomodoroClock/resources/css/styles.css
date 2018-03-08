@@ -192,10 +192,10 @@ i:hover {
     font-size: 10px;
   }
   .container {
-    padding: 40px 40px;
+    padding: 20px 40px;
   }
   .material-icons {
-    font-size: 25px !important;
+    font-size: 40px !important;
   }
   #clock #display {
     font-weight: 100;
