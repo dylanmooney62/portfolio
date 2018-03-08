@@ -118,16 +118,14 @@ i {
   cursor: pointer;
   transition: 0.2s all ease-in-out;
 }
-i:hover {
+i:hover{
   color: #ff4732;
 }
-#main-ui div .ion-ios-play-outline {
-  margin-left: 5px;
-}
-#increment-ui div .ion-ios-arrow-up {
+
+#up{
   margin-left: 50%;
 }
-#increment-ui div .ion-ios-arrow-down {
+#down {
   margin-right: 50%;
 }
 /* PROGRESS CIRCLE */
