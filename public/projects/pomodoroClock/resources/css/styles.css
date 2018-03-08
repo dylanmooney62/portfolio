@@ -30,7 +30,6 @@ body,html {
   color: #2c3e50;
   height: 600px;
   width: 604px;
-  border: 1px solid #2c3e50;
 }
 /* -------DISPLAY ------- */
 #clock #display {
@@ -58,25 +57,6 @@ body,html {
   float: left;
   width: 33%;
 }
-
-/* AUDIO UI */
-
-#audio-ui {
-  float: right;
-  margin-right: 30px;
-  margin-top: 5px;
-  
-}
-
-#sound {
-  font-size: 1px;
-}
-
-#mute {
-  display: none;
-}
-
-
 
 
 /* TIME INCREMENT UI */
@@ -194,6 +174,11 @@ i:hover {
    margin: 0;
   }
 
+
+
+
+
+
 }
 
 @media (max-width: 450px) {
@@ -201,8 +186,20 @@ i:hover {
     bottom: 10%;
   }
 
+  #display {
+    font-size: 10px;
+  }
+
 
   i {
-    font-size: 30px;
+    font-size: 15px;
+  }
+
+
+  #clock #display {
+    font-weight: 100;
+    font-size: 80px;
+    margin: 200px 0 50px 0;
+    text-align: center 
   }
 }
