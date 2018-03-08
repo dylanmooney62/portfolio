@@ -61,7 +61,7 @@ blockquote p {
   transform: translateX(-50%)
 }
 
-.btn {
+.btn, .fa-twitter {
   margin: 0 5vw;
   background: none;
   color: #fff;
@@ -89,9 +89,11 @@ blockquote p {
 }
 
 @media (max-width: 700px) {
-  .btn {
+  .btn, .fa-twitter {
     font-size: 15vw;
   }
+  
+
   blockquote {
     font-size: 10vw;
     font-weight: 300;
