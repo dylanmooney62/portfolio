@@ -196,6 +196,7 @@ i:hover {
   }
   .material-icons {
     font-size: 40px !important;
+    color: #8a8a8a;
   }
   #clock #display {
     font-weight: 100;
