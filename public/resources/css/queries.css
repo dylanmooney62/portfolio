@@ -144,5 +144,10 @@
   }
   #hero-text-box h1 {
     margin: 10px;
+    font-size: 10vw;
+  }
+
+ #hero-text-box .work-btn {
+    font-size: 2vw;
   }
 }
