@@ -433,15 +433,36 @@ nav {
   padding: 1em;
 }
 
-.modal-icon {
-  position: relative;
+.modal-link span {
+  width: 100%;
+  text-align: center;
+  font-size: 0.6rem;
+  color: #252a30;
+  cursor: default;
+}
+
+.fa-link {
+  margin-left: 3px;
+}
+
+.modal-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   margin: 0.5em 0.5em;
+  text-decoration: none;
+}
+
+.modal-icon {
+  margin-bottom: 0.05em;
   font-size: 3.5rem;
   color: #ff3838;
   transition: 0.3s all ease-in-out;
   padding: 10px;
   border-radius: 40%;
   border: 2px solid transparent;
+  width: 100%;
 }
 
 .modal-icon:hover {
