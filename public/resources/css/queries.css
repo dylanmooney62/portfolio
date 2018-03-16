@@ -102,6 +102,13 @@
   #project-list li:nth-of-type(5) {
     grid-column: 1;
   }
+
+  .modal-link {
+    width: 50%;
+  }
+
+  
+
   button {
     width: 80%;
   }

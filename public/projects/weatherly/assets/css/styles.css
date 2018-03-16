@@ -235,6 +235,10 @@ i {
 }
 
 @media (max-width: 730px) {
+
+  .card-header {
+    font-size: 6vw;
+  }
   .card-grid {
     padding: 0.5em;
   }

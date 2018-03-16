@@ -428,10 +428,14 @@ nav {
 
 .icon-wrapper  {
   display: flex;
-  justify-content: center;
-  align-items: center;
+
   padding: 1em;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
+
+
 
 .modal-link span {
   width: 100%;
