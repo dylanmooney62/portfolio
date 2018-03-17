@@ -274,7 +274,7 @@
             </ul>
           </div>
           <div class="img-wrapper">
-            <img class="chatterBox" src="resources/images/ChatterBox.png" alt="placeholder image">
+            <img class="chatterBox" src="resources/images/chatterbox.png" alt="placeholder image">
           </div>
         </div>
         <div class="icon-wrapper">
@@ -326,10 +326,10 @@
     <h2>Get In Touch</h2>
 
     <div class="row">
-      <form action="POST" id="contact-form">
-        <input type="text" placeholder="Name*" required>
-        <input type="email" placeholder="Email*" required>
-        <input type="text" placeholder="Phone Number">
+      <form method="POST" id="contact-form" action="https://formspree.io/dylanmooney62@gmail.com">
+        <input type="text" name="name" placeholder="Name*" required>
+        <input type="email" name="_replyto" placeholder="Email*" required>
+        <input type="text" placeholder="Phone Number" name="phoneNumber">
         <textarea placeholder="Message*"></textarea>
         <div class="btn-wrapper">
           <button type="submit" class="btn btn-full">Send
@@ -341,6 +341,7 @@
   </section>
 
 
+  
   <footer>
     <div class="row">
       <ul id="social-links">
