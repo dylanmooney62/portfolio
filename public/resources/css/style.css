@@ -279,11 +279,6 @@ nav {
   
 }
 
-#project-list li:nth-of-type(5) {
-  grid-column: 2/4;
-  width: 100%;
-} 
-
 .project {
   text-align: center;
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/background-placeholder.jpeg");
@@ -319,6 +314,10 @@ nav {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/project5-background.png");
   background-size: cover;
   background-position: top;
+}
+
+#project6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/project6-background.png");
 }
 
 .project:hover {
