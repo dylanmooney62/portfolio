@@ -1,3 +1,10 @@
+@media only screen and (min-width: 2560px) {
+  h1 {
+    font-size: 5vw;
+  }
+}
+
+
 /* From big tablets to 1200px (widths smaller than 1140px row) */
 
 @media only screen and (max-width: 1200px) {
